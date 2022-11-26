@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		158A3F152052EE8E00174952 /* UIBarButtonItem+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158A3F142052EE8E00174952 /* UIBarButtonItem+Signals.swift */; };
-		720D11781A085315003C4361 /* Signals.h in Headers */ = {isa = PBXBuildFile; fileRef = 720D11771A085315003C4361 /* Signals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		720D117E1A085315003C4361 /* Signals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720D11721A085314003C4361 /* Signals.framework */; };
 		720D11851A085315003C4361 /* SignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11841A085315003C4361 /* SignalsTests.swift */; };
 		720D11911A085370003C4361 /* SignalEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D118E1A085370003C4361 /* SignalEmitter.swift */; };
@@ -16,7 +15,6 @@
 		720D11931A085370003C4361 /* TestListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11901A085370003C4361 /* TestListener.swift */; };
 		720D11951A08537E003C4361 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11941A08537E003C4361 /* Signal.swift */; };
 		721E12A91C1E8E1D00CD0CBA /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11941A08537E003C4361 /* Signal.swift */; };
-		721E12AC1C1E8E1D00CD0CBA /* Signals.h in Headers */ = {isa = PBXBuildFile; fileRef = 720D11771A085315003C4361 /* Signals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72321EFC1DB74CA300E79E9D /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD0F491D7CE74500ACFF1A /* AssociatedObject.swift */; };
 		72321EFD1DB74CA400E79E9D /* AssociatedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD0F491D7CE74500ACFF1A /* AssociatedObject.swift */; };
 		72321EFF1DB74CBF00E79E9D /* UIControl+Signals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD0F4A1D7CE74500ACFF1A /* UIControl+Signals.swift */; };
@@ -29,13 +27,11 @@
 		725B76D01C265738001D04CC /* SignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11841A085315003C4361 /* SignalsTests.swift */; };
 		725B76D11C265738001D04CC /* SingalQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D118F1A085370003C4361 /* SingalQueueTests.swift */; };
 		72665B401C212BDB0067DF26 /* Signals.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72665B361C212BDB0067DF26 /* Signals.framework */; };
-		72665B4D1C212BEC0067DF26 /* Signals.h in Headers */ = {isa = PBXBuildFile; fileRef = 720D11771A085315003C4361 /* Signals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72665B4E1C212BEC0067DF26 /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11941A08537E003C4361 /* Signal.swift */; };
 		72665B4F1C212BF60067DF26 /* TestListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11901A085370003C4361 /* TestListener.swift */; };
 		72665B501C212BF60067DF26 /* SignalEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D118E1A085370003C4361 /* SignalEmitter.swift */; };
 		72665B511C212BF60067DF26 /* SignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D11841A085315003C4361 /* SignalsTests.swift */; };
 		72665B521C212BF60067DF26 /* SingalQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720D118F1A085370003C4361 /* SingalQueueTests.swift */; };
-		7299334E1DB349E3001A431D /* Signals.h in Headers */ = {isa = PBXBuildFile; fileRef = 720D11771A085315003C4361 /* Signals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		72C57B6D1D7CE7A400CF2EE0 /* UIControl+SignalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AD0F531D7CE77200ACFF1A /* UIControl+SignalsTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +63,6 @@
 		158A3F142052EE8E00174952 /* UIBarButtonItem+Signals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIBarButtonItem+Signals.swift"; path = "ios/UIBarButtonItem+Signals.swift"; sourceTree = "<group>"; };
 		720D11721A085314003C4361 /* Signals.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Signals.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D11761A085315003C4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		720D11771A085315003C4361 /* Signals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Signals.h; sourceTree = "<group>"; };
 		720D117D1A085315003C4361 /* SignalsTests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SignalsTests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720D11831A085315003C4361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720D11841A085315003C4361 /* SignalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignalsTests.swift; sourceTree = "<group>"; };
@@ -169,7 +164,6 @@
 		720D11741A085314003C4361 /* Signals */ = {
 			isa = PBXGroup;
 			children = (
-				720D11771A085315003C4361 /* Signals.h */,
 				720D11941A08537E003C4361 /* Signal.swift */,
 				724993511C435569006653CB /* iOS */,
 				720D11751A085315003C4361 /* Supporting Files */,
@@ -231,7 +225,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720D11781A085315003C4361 /* Signals.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +232,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721E12AC1C1E8E1D00CD0CBA /* Signals.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +239,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7299334E1DB349E3001A431D /* Signals.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +246,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72665B4D1C212BEC0067DF26 /* Signals.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
